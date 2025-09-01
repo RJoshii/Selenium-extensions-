@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pac1.TC009_TESTNG">
+      <class name="com.orangehrm.test.Login_OrangeHrm">
         <methods>
-          <include name="beforeClass"/>
-          <include name="f"/>
-          <include name="beforeMethod"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
+          <include name="verifylogin"/>
         </methods>
-      </class> <!-- pac1.TC009_TESTNG -->
+      </class> <!-- com.orangehrm.test.Login_OrangeHrm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
